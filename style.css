@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    position: sticky;
+    background-color: aliceblue;
+    top: 0;
+}
+
+nav{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0.6rem;
+
+}
+
+ul{
+    font-size: 1.5rem;
+    display: flex;
+    gap:2rem;
+}
+li{
+    list-style: none;
+}
+nav ul li i{
+    font-size: 1.8rem;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid black;
+}
+
+main{
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0.6rem;
+    
+}
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hero-left h2{
+    font-size: 4rem;
+    line-height: 4.9rem;
+}
+
+.hero-left p{
+    font-size: 1.7rem;
+}
+
+.hero-right img{
+    width: 35rem;
+}
+
+
+
+
+
+.heroCard{
+    display: flex;
+    margin: 2rem 0;
+    box-shadow: 0px 5px 4px;
+    align-items: center;
+    padding-left: 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.heroCard img{
+    border-radius: 5px;
+    
+}
+
+.heroCard h4{
+    font-size: 1.9rem;
+    line-height: 4rem;
+}
+.heroCard p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+.status button{
+    border: none;
+    background-color: white;
+}
+
+.status button:hover{
+    border-bottom: 1px solid black;
+}
+
+
+.v-content{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 320px;
+    box-shadow: 0px 5px 4px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.card-content{
+    position: relative;
+    padding: 20px 30px;
+}
+
+.card-content h4{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.card-content p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+}
+
+.v-content img{
+    width: 100%;
+    height: 100%;
+
+}
+.card-outer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+
+.card-inner{
+    display: flex;
+    justify-content: center;
+}
